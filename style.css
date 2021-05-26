@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+.container {
+    background-color: black;
+    width: 70%;
+    margin: 0 auto;
+    min-height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container h1 {
+    color: white;
+}
+
+/* Main area starts */
+
+main {
+    background-color: rgb(225, 231, 233);
+    margin: 20px auto;
+    padding: 50px;
+    width: 70%;
+    min-height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2em;
+
+}
+
+
+aside {
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+aside img {
+    height: 50px;
+    
+}
+
+.rightside {
+    background-color: white;
+    min-height: 70px;
+    width: 500px;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.feed {
+    min-height: 150px;
+    width: 450px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+
+.mid-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px;
+    gap: .25em;
+}
+
+.btn {
+    background-color: gold;
+    height: 50px;
+    width: 100px;
+    box-shadow: 5px 5px 5px #888;
+}
